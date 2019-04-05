@@ -26,7 +26,7 @@ pipeline {
             steps {
                 echo 'Sonar Scanner'
           withSonarQubeEnv('sonar') {
-                sh 'mvn clean install  -D sonar.host.http://3.92.200.196:9000'
+                sh 'mvn clean install  -D sonar.host.http://54.165.11.192:9000/sonar'
           }
           }
         }
