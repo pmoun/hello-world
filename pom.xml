@@ -210,7 +210,7 @@
   </scm>
 
   <prerequisites>
-    <maven>3.0.3</maven>
+    <maven>3.3.9</maven>
   </prerequisites>
 	  <distributionManagement> 
 		<snapshotRepository>
