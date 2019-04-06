@@ -200,23 +200,12 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-  </dependencyManagement>
-
-  <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
-    <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
-  </scm>
-
-  <prerequisites>
-    <maven>3.3.9</maven>
-  </prerequisites>
+  
 	  <distributionManagement> 
 		<snapshotRepository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>http://54.165.11.192:8081/repository/maven-snapshots/</url>
+		<url>http://34.205.25.44:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 	
 </distributionManagement>
