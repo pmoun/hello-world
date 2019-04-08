@@ -200,12 +200,15 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-  
+  </dependencyManagement>
+	  <prerequisites>
+    <maven>3.0.3</maven>
+  </prerequisites>
 	  <distributionManagement> 
 		<snapshotRepository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>http://34.205.25.44:8081/repository/maven-snapshots/</url>
+		<url>http://35.196.11.104:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 	
 </distributionManagement>
