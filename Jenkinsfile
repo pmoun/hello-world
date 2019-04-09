@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'gcp' }
+    agent { any }
  tools{
   maven 'm3'
  }
@@ -26,7 +26,7 @@ pipeline {
             steps {
                 echo 'Sonar Scanner'
           withSonarQubeEnv('sonar') {
-                sh 'mvn clean install  -D sonar.host.http://3.83.104.121:9000/'
+                sh 'mvn clean sonar.host.http://3.86.86.45:9000'
           }
           }
         }
